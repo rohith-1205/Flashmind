@@ -33,7 +33,7 @@ Coupled with a **Firebase Cloud Firestore** tracking backend, FlashMind acts as 
 
 - **Frontend Framework:** React 19 + Vite (for ultra-fast HMR and building)
 - **Component Styling:** Material-UI (MUI) v9 + Custom CSS Modules
-- **AI Integration:** Google Generative AI Web SDK (`gemini-2.5-flash` model endpoint)
+- **AI Integration:** Google Generative AI Web SDK (`gemini-2.5-flash-lite` model endpoint)
 - **Backend & Database:** Firebase Authentication + Cloud Firestore
 
 ---

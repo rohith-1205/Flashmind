@@ -4,7 +4,7 @@ const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 // ✅ Use one consistent model name across the whole file
-const MODEL_NAME = "gemini-2.5-flash";
+const MODEL_NAME = "gemini-2.5-flash-lite";
 
 // ─── Helper: parse JSON safely from AI response ───────────────────────────
 const parseJSON = (rawText) => {
